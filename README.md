@@ -11,6 +11,8 @@
 
 ### 📺 【GitHub仓库创建，上传备份Unity项目】
 
+[![视频教程封面](封面.jpg)](https://www.bilibili.com/video/BV1NLbxzgEXE/?share_source=copy_web&vd_source=80d27e156558a950280846f6a49e5e75)
+
 **🔗 视频链接**: [https://www.bilibili.com/video/BV1NLbxzgEXE](https://www.bilibili.com/video/BV1NLbxzgEXE/?share_source=copy_web&vd_source=80d27e156558a950280846f6a49e5e75)
 
 **📊 视频信息**:
@@ -26,7 +28,7 @@
 > - 🔄 **边看边做**：可以暂停视频，跟着步骤实际操作
 > - 📖 **文档补充**：视频中未涉及的细节可以在下方文档中找到
 > - ❓ **问题解决**：遇到问题时可以查看文档中的"常见问题解决"部分
-> - 🌐 **访问说明**：点击上方图片或链接即可跳转到B站观看视频
+> - 🖼️ **观看方式**：点击上方封面图片或视频链接即可跳转到B站观看视频
 > - 👍 **互动支持**：观看后别忘了点赞、投币、收藏支持！
 
 ---
