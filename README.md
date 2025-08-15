@@ -9,15 +9,30 @@
 
 如果您更喜欢通过视频学习，可以观看我们制作的详细视频教程：
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115033350672303&bvid=BV1NLbxzgEXE&cid=31720606696&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"></iframe>
+### 📺 【GitHub仓库创建，上传备份Unity项目】
+
+**🔗 视频链接**: [https://www.bilibili.com/video/BV1NLbxzgEXE](https://www.bilibili.com/video/BV1NLbxzgEXE/?share_source=copy_web&vd_source=80d27e156558a950280846f6a49e5e75)
+
+**📊 视频信息**:
+
+- 🎬 **标题**: GitHub仓库创建，上传备份Unity项目
+- ⏱️ **时长**: 完整操作演示
+- 🎯 **内容**: Unity项目版本控制完整流程
+- 👨‍💻 **适合**: Unity开发者、Git初学者
 
 > **💡 学习建议**:
+>
 > - 📺 **视频 + 文档结合**：建议先观看视频了解整体流程，再参考文档进行具体操作
 > - 🔄 **边看边做**：可以暂停视频，跟着步骤实际操作
 > - 📖 **文档补充**：视频中未涉及的细节可以在下方文档中找到
 > - ❓ **问题解决**：遇到问题时可以查看文档中的"常见问题解决"部分
+> - 🌐 **访问说明**：点击上方图片或链接即可跳转到B站观看视频
+> - 👍 **互动支持**：观看后别忘了点赞、投币、收藏支持！
+
+---
 
 ## 📋 目录
+
 1. [🚀 准备工作](#-准备工作)
 2. [⚙️ Unity工程配置](#️-unity工程配置)
 3. [🖥️ GitHub桌面版设置](#️-github桌面版设置)
@@ -30,6 +45,7 @@
 ## 🚀 准备工作
 
 ### 📋 检查清单
+
 在开始之前，请确保您已完成以下准备工作：
 
 - [ ] Unity Hub 和 Unity Editor 已安装
@@ -40,11 +56,14 @@
 ### 1. 软件安装详细步骤
 
 #### 1.1 GitHub账户注册
+
 1. **访问GitHub官网**
+
    - 打开浏览器，访问 [github.com](https://github.com)
    - 点击右上角 **"Sign up"** 按钮
 
 2. **填写注册信息**
+
    ```
    Username: 选择一个唯一的用户名（建议使用英文和数字）
    Email: 输入您的邮箱地址
@@ -52,6 +71,7 @@
    ```
 
 3. **验证账户**
+
    - 完成人机验证
    - 检查邮箱并点击验证链接
    - 选择免费计划（Free plan）
@@ -59,14 +79,17 @@
 #### 1.2 GitHub Desktop安装
 
 ##### 选择合适的版本
+
 根据您的语言偏好选择合适的GitHub Desktop版本：
 
 **官方英文版（推荐）**
+
 - 访问 [desktop.github.com](https://desktop.github.com/)
 - 功能最新，更新及时
 - 官方技术支持
 
 **中文汉化版（适合英文不太好的用户）**
+
 - 访问 [GitHub Desktop 中文版](https://github.com/zetaloop/Desktop)
 - 界面完全中文化，操作更直观
 - 基于官方版本汉化，功能完整
@@ -79,17 +102,21 @@
 1. **下载GitHub Desktop**
 
    **官方英文版**:
+
    - 访问 [desktop.github.com](https://desktop.github.com/)
    - 点击 **"Download for Windows"** 或 **"Download for macOS"**
 
    **中文汉化版**:
+
    - 访问 [https://github.com/zetaloop/Desktop](https://github.com/zetaloop/Desktop)
    - 点击 **"Releases"** 查看最新版本
    - 下载对应系统的安装包
    - 等待下载完成
 
 2. **安装步骤**
+
    - **Windows用户**:
+
      ```
      1. 双击下载的 .exe 文件
      2. 按照安装向导完成安装
@@ -98,6 +125,7 @@
      ```
 
    - **macOS用户**:
+
      ```
      1. 双击下载的 .dmg 文件
      2. 将GitHub Desktop拖拽到Applications文件夹
@@ -106,6 +134,7 @@
      ```
 
 3. **版本对比**
+
    ```
    功能对比：
                     官方版    中文版
@@ -118,13 +147,16 @@
    ```
 
 4. **首次启动配置**
+
    - 启动GitHub Desktop（界面语言取决于您选择的版本）
    - 选择 **"Sign in to GitHub.com"**（中文版显示为"登录到GitHub.com"）
    - 输入GitHub账户信息
    - 授权GitHub Desktop访问您的账户
 
 ##### 中文版特色功能
+
 如果您选择了中文版，将享受以下便利：
+
 ```
 中文界面优势：
 📝 菜单和按钮全部中文显示
@@ -138,12 +170,14 @@
 ### 2. 系统要求检查
 
 #### 最低系统要求
+
 - **Windows**: Windows 10 或更高版本
 - **macOS**: macOS 10.13 或更高版本
 - **磁盘空间**: 至少500MB可用空间
 - **网络**: 稳定的互联网连接
 
 #### Unity版本兼容性
+
 - **推荐Unity版本**: 2020.3 LTS 或更高
 - **支持的版本**: Unity 2018.4 及以上
 - **注意**: 不同Unity版本的项目结构可能略有差异
@@ -153,11 +187,14 @@
 ### 1. Unity工程准备
 
 #### 1.1 创建或打开Unity工程
+
 1. **启动Unity Hub**
+
    - 双击桌面上的Unity Hub图标
    - 或从开始菜单搜索"Unity Hub"
 
 2. **创建新工程（如果需要）**
+
    ```
    步骤：
    1. 点击 "New project" 按钮
@@ -168,6 +205,7 @@
    ```
 
 3. **打开现有工程**
+
    ```
    步骤：
    1. 点击 "Open" 按钮
@@ -176,12 +214,15 @@
    ```
 
 4. **验证工程正常运行**
+
    - 等待Unity编辑器完全加载
    - 检查Console窗口是否有错误信息
    - 尝试播放场景（点击Play按钮）
 
 #### 1.2 工程结构检查
+
 确保您的Unity工程包含以下基本文件夹结构：
+
 ```
 YourUnityProject/
 ├── Assets/                 # 游戏资源文件夹
@@ -198,6 +239,7 @@ YourUnityProject/
 #### 2.1 为什么需要这些配置？
 
 **配置的重要性**：
+
 ```
 ❌ 不配置的后果：
 - 资源引用经常丢失 (Missing Reference)
@@ -215,6 +257,7 @@ YourUnityProject/
 ```
 
 **适用版本范围**：
+
 - ✅ **Unity 5.0+**: 完全支持
 - ✅ **Unity 2018.4 LTS+**: 强烈推荐
 - ✅ **Unity 2020.3 LTS+**: 行业标准
@@ -223,31 +266,38 @@ YourUnityProject/
 #### 2.2 详细配置步骤
 
 ##### 步骤1: 打开项目设置
+
 1. **方法一：使用菜单**
+
    ```
    路径：Edit → Project Settings
    ```
 
 2. **方法二：使用快捷键**
+
    ```
    Windows: Ctrl + Shift + ,
    Mac: Cmd + ,
    ```
 
 3. **验证设置窗口**
+
    - 确认Project Settings窗口已打开
    - 左侧应显示设置分类列表
 
 ##### 步骤2: 配置版本控制模式
+
 1. **定位设置位置**
+
    - 在左侧面板选择 **"Editor"**
    - 向下滚动找到 **"Version Control"** 部分
 
 2. **设置Version Control Mode**
+
    ```
    当前设置: [显示当前值]
    目标设置: Visible Meta Files
-
+   
    选项说明:
    - Hidden Meta Files: 隐藏.meta文件（不推荐）
    - Visible Meta Files: 显示.meta文件（推荐）
@@ -255,6 +305,7 @@ YourUnityProject/
    ```
 
 3. **为什么选择Visible Meta Files？**
+
    ```
    .meta文件的作用:
    📁 存储资源的唯一标识符(GUID)
@@ -265,15 +316,18 @@ YourUnityProject/
    ```
 
 ##### 步骤3: 配置资源序列化模式
+
 1. **定位序列化设置**
+
    - 在同一个Editor设置页面
    - 找到 **"Asset Serialization"** 部分
 
 2. **设置Asset Serialization Mode**
+
    ```
    当前设置: [显示当前值]
    目标设置: Force Text
-
+   
    选项说明:
    - Mixed: 混合格式（部分二进制，部分文本）
    - Force Binary: 强制二进制格式（不推荐）
@@ -281,6 +335,7 @@ YourUnityProject/
    ```
 
 3. **为什么选择Force Text？**
+
    ```
    文本格式的优势:
    📝 可以查看和比较文件内容
@@ -288,7 +343,7 @@ YourUnityProject/
    📝 版本控制工具可以显示有意义的差异
    📝 文件损坏时更容易恢复
    📝 便于代码审查和调试
-
+   
    二进制格式的问题:
    ❌ 无法进行文本比较
    ❌ 冲突时难以手动解决
@@ -297,12 +352,15 @@ YourUnityProject/
    ```
 
 ##### 步骤4: 应用和验证设置
+
 1. **保存设置**
+
    - 点击窗口底部的 **"Apply"** 按钮
    - 等待Unity处理设置更改
    - 关闭Project Settings窗口
 
 2. **验证配置生效**
+
    ```
    检查方法:
    1. 重新打开Project Settings → Editor
@@ -313,7 +371,9 @@ YourUnityProject/
 #### 2.3 配置后的变化
 
 ##### 文件系统变化
+
 **配置前**:
+
 ```
 Assets/
 ├── Scripts/
@@ -323,6 +383,7 @@ Assets/
 ```
 
 **配置后**:
+
 ```
 Assets/
 ├── Scripts/
@@ -334,7 +395,9 @@ Assets/
 ```
 
 ##### 文件内容变化
+
 **场景文件示例**:
+
 ```yaml
 配置前 (二进制): [不可读的二进制数据]
 
@@ -354,7 +417,9 @@ OcclusionCullingSettings:
 #### 2.4 团队协作影响
 
 ##### 多人开发场景对比
+
 **场景1: 未正确配置**
+
 ```
 开发者A: 创建预制体 → 提交代码
 开发者B: 拉取代码 → 预制体引用丢失 → 需要重新设置
@@ -362,6 +427,7 @@ OcclusionCullingSettings:
 ```
 
 **场景2: 正确配置**
+
 ```
 开发者A: 创建预制体 → .meta文件包含GUID → 提交代码
 开发者B: 拉取代码 → 所有引用保持完整 → 直接可用
@@ -371,21 +437,27 @@ OcclusionCullingSettings:
 #### 2.5 常见问题和解决方案
 
 ##### 问题1: 设置后项目变慢
+
 **原因**: 文本序列化可能略微影响加载速度
 **解决方案**:
+
 - 这是正常现象，影响很小
 - 开发阶段的便利性远超性能损失
 - 发布版本可以使用构建优化
 
 ##### 问题2: .meta文件太多
+
 **原因**: 每个资源都会生成对应的.meta文件
 **解决方案**:
+
 - 这是必要的，不要删除.meta文件
 - 确保.meta文件也被版本控制追踪
 - 在.gitignore中不要忽略.meta文件
 
 ##### 问题3: 现有项目如何迁移
+
 **解决方案**:
+
 ```
 迁移步骤:
 1. 备份整个项目
@@ -396,6 +468,7 @@ OcclusionCullingSettings:
 ```
 
 #### 2.3 验证配置
+
 1. **检查.meta文件**
    - 在文件资源管理器中打开Unity工程文件夹
    - 进入Assets文件夹
@@ -409,7 +482,9 @@ OcclusionCullingSettings:
 ### 3. 创建.gitignore文件
 
 #### 3.1 什么是.gitignore文件
+
 .gitignore文件告诉Git哪些文件和文件夹不需要进行版本控制。对于Unity工程，这非常重要，因为：
+
 - Unity会生成大量临时文件和缓存
 - 这些文件会频繁变化且体积庞大
 - 上传这些文件会浪费存储空间和带宽
@@ -417,6 +492,7 @@ OcclusionCullingSettings:
 #### 3.2 创建.gitignore文件步骤
 
 1. **使用文本编辑器创建**
+
    ```
    步骤：
    1. 打开记事本（Windows）或TextEdit（Mac）
@@ -426,6 +502,7 @@ OcclusionCullingSettings:
    ```
 
 2. **Unity专用.gitignore内容**
+
    ```gitignore
    # ===================================
    # Unity生成的文件和文件夹
@@ -437,7 +514,7 @@ OcclusionCullingSettings:
    [Bb]uilds/
    [Ll]ogs/
    [Uu]ser[Ss]ettings/
-
+   
    # ===================================
    # Unity缓存和临时文件
    # ===================================
@@ -451,13 +528,13 @@ OcclusionCullingSettings:
    *.mdb
    *.opendb
    *.VC.db
-
+   
    # ===================================
    # Unity特定文件
    # ===================================
    *.unitypackage
    *.app
-
+   
    # ===================================
    # 操作系统生成的文件
    # ===================================
@@ -465,14 +542,14 @@ OcclusionCullingSettings:
    Thumbs.db
    ehthumbs.db
    Desktop.ini
-
+   
    # macOS
    .DS_Store
    .DS_Store?
    ._*
    .Spotlight-V100
    .Trashes
-
+   
    # ===================================
    # IDE和编辑器文件
    # ===================================
@@ -482,28 +559,29 @@ OcclusionCullingSettings:
    *.userosscache
    *.sln.docstates
    .vs/
-
+   
    # Visual Studio Code
    .vscode/
-
+   
    # JetBrains Rider
    .idea/
-
+   
    # ===================================
    # 其他常见忽略文件
    # ===================================
    # 崩溃报告
    sysinfo.txt
-
+   
    # Unity Cloud Build
    /[Bb]uild/
    /[Bb]uilds/
-
+   
    # Autogenerated Jetbrains Rider plugin
    [Aa]ssets/Plugins/Editor/JetBrains*
    ```
 
 #### 3.3 验证.gitignore文件
+
 1. **检查文件位置**
    - 确认.gitignore文件在Unity工程根目录
    - 与Assets、ProjectSettings文件夹在同一级别
@@ -514,6 +592,7 @@ OcclusionCullingSettings:
    - 注意文件编码应为UTF-8
 
 #### 3.4 常见问题解决
+
 - **Windows无法创建.gitignore文件**：
   - 使用命令提示符：`echo. > .gitignore`
   - 或在文件名后加点：`.gitignore.`（系统会自动去掉最后的点）
@@ -532,12 +611,14 @@ OcclusionCullingSettings:
 > **💡 提示**: 以下步骤适用于官方英文版和中文汉化版，中文版的界面文字会显示为中文。
 
 1. **启动GitHub Desktop**
+
    - 双击桌面图标或从开始菜单启动
    - 等待应用程序完全加载
 
 2. **登录GitHub账户**
 
    **官方英文版步骤**：
+
    ```
    1. 点击 "Sign in to GitHub.com" 按钮
    2. 浏览器会自动打开GitHub登录页面
@@ -549,6 +630,7 @@ OcclusionCullingSettings:
    ```
 
    **中文汉化版步骤**：
+
    ```
    1. 点击 "登录到GitHub.com" 按钮
    2. 浏览器会自动打开GitHub登录页面
@@ -560,6 +642,7 @@ OcclusionCullingSettings:
    ```
 
 3. **验证登录状态**
+
    - 在GitHub Desktop界面右上角应显示您的头像
    - 点击头像可以看到账户信息
    - 中文版会显示中文的账户信息
@@ -569,11 +652,13 @@ OcclusionCullingSettings:
 1. **打开设置界面**
 
    **官方英文版**:
+
    - **Windows用户**: 点击 `File → Options`
    - **Mac用户**: 点击 `GitHub Desktop → Preferences`
    - 或使用快捷键 `Ctrl+,` (Windows) / `Cmd+,` (Mac)
 
    **中文汉化版**:
+
    - **Windows用户**: 点击 `文件 → 选项`
    - **Mac用户**: 点击 `GitHub Desktop → 偏好设置`
    - 或使用快捷键 `Ctrl+,` (Windows) / `Cmd+,` (Mac)
@@ -581,11 +666,13 @@ OcclusionCullingSettings:
 2. **配置账户信息**
 
    **官方英文版**:
+
    - 选择 **"Accounts"** 选项卡
    - 确认GitHub账户已正确显示
    - 检查账户状态为"Signed in"
 
    **中文汉化版**:
+
    - 选择 **"账户"** 选项卡
    - 确认GitHub账户已正确显示
    - 检查账户状态为"已登录"
@@ -593,16 +680,22 @@ OcclusionCullingSettings:
 3. **配置Git信息**
 
    **官方英文版**:
+
    - 选择 **"Git"** 选项卡
+
    - 设置以下信息：
+
      ```
      Name: 输入您的真实姓名或昵称
      Email: 输入GitHub注册时使用的邮箱地址
      ```
 
    **中文汉化版**:
+
    - 选择 **"Git"** 选项卡
+
    - 设置以下信息：
+
      ```
      姓名: 输入您的真实姓名或昵称
      邮箱: 输入GitHub注册时使用的邮箱地址
@@ -615,11 +708,13 @@ OcclusionCullingSettings:
 1. **外观设置**
 
    **官方英文版**:
+
    - 选择 **"Appearance"** 选项卡
    - 选择主题：Light（浅色）或 Dark（深色）
    - 根据个人喜好调整
 
    **中文汉化版**:
+
    - 选择 **"外观"** 选项卡
    - 选择主题：浅色 或 深色
    - 根据个人喜好调整
@@ -627,11 +722,13 @@ OcclusionCullingSettings:
 2. **集成设置**
 
    **官方英文版**:
+
    - 选择 **"Integrations"** 选项卡
    - 配置默认编辑器（推荐Visual Studio Code）
    - 配置默认Shell（通常保持默认即可）
 
    **中文汉化版**:
+
    - 选择 **"集成"** 选项卡
    - 配置默认编辑器（推荐Visual Studio Code）
    - 配置默认终端（通常保持默认即可）
@@ -639,11 +736,13 @@ OcclusionCullingSettings:
 3. **高级设置**
 
    **官方英文版**:
+
    - 选择 **"Advanced"** 选项卡
    - 设置使用情况统计（可选）
    - 配置代理设置（如果需要）
 
    **中文汉化版**:
+
    - 选择 **"高级"** 选项卡
    - 设置使用情况统计（可选）
    - 配置代理设置（如果需要）
@@ -653,6 +752,7 @@ OcclusionCullingSettings:
 #### 2.1 主界面布局
 
 **官方英文版界面**:
+
 ```
 GitHub Desktop界面说明：
 ┌─────────────────────────────────────────┐
@@ -668,6 +768,7 @@ GitHub Desktop界面说明：
 ```
 
 **中文汉化版界面**:
+
 ```
 GitHub Desktop界面说明：
 ┌─────────────────────────────────────────┐
@@ -684,17 +785,18 @@ GitHub Desktop界面说明：
 
 #### 2.2 重要功能按钮对照
 
-| 功能 | 英文版 | 中文版 | 说明 |
-|------|--------|--------|------|
-| 当前仓库 | Current Repository | 当前仓库 | 显示当前仓库，点击可切换仓库 |
-| 当前分支 | Current Branch | 当前分支 | 显示当前分支，点击可切换分支 |
-| 获取更新 | Fetch origin | 获取源 | 从远程仓库获取最新更新 |
-| 推送 | Push origin | 推送到源 | 将本地提交推送到远程仓库 |
-| 拉取 | Pull origin | 拉取源 | 拉取并合并远程更新 |
-| 提交 | Commit to main | 提交到主分支 | 将更改提交到当前分支 |
-| 发布仓库 | Publish repository | 发布仓库 | 将本地仓库发布到GitHub |
+| 功能     | 英文版             | 中文版       | 说明                         |
+| -------- | ------------------ | ------------ | ---------------------------- |
+| 当前仓库 | Current Repository | 当前仓库     | 显示当前仓库，点击可切换仓库 |
+| 当前分支 | Current Branch     | 当前分支     | 显示当前分支，点击可切换分支 |
+| 获取更新 | Fetch origin       | 获取源       | 从远程仓库获取最新更新       |
+| 推送     | Push origin        | 推送到源     | 将本地提交推送到远程仓库     |
+| 拉取     | Pull origin        | 拉取源       | 拉取并合并远程更新           |
+| 提交     | Commit to main     | 提交到主分支 | 将更改提交到当前分支         |
+| 发布仓库 | Publish repository | 发布仓库     | 将本地仓库发布到GitHub       |
 
 #### 2.3 快捷键参考
+
 ```
 常用快捷键（两个版本通用）：
 Ctrl+N (Cmd+N)     : 创建新仓库
@@ -709,12 +811,14 @@ Ctrl+T (Cmd+T)     : 切换分支
 #### 2.4 版本选择建议
 
 **选择官方英文版的情况**:
+
 - ✅ 有一定英文基础
 - ✅ 希望获得最新功能
 - ✅ 需要官方技术支持
 - ✅ 团队使用英文版
 
 **选择中文汉化版的情况**:
+
 - ✅ 英文水平有限
 - ✅ 初次使用Git工具
 - ✅ 希望降低学习门槛
@@ -727,52 +831,58 @@ Ctrl+T (Cmd+T)     : 切换分支
 ### 1. 创建本地Git仓库
 
 #### 1.1 添加Unity工程到GitHub Desktop
+
 1. **打开GitHub Desktop**
+
    - 确保已经登录并配置完成
    - 界面应显示"Let's get started!"或仓库列表
 
 2. **添加本地仓库**
+
    ```
    方法一：使用菜单
    1. 点击 "File" → "Add local repository"
    2. 点击 "Choose..." 按钮
    3. 浏览并选择您的Unity工程文件夹
    4. 点击 "Select Folder"
-
+   
    方法二：拖拽添加
    1. 直接将Unity工程文件夹拖拽到GitHub Desktop窗口
    ```
 
 3. **处理Git仓库检测**
+
    - 如果显示"This directory does not appear to be a Git repository"
    - 点击 **"create a repository"** 链接
    - 这是正常情况，因为Unity工程默认不包含Git仓库
 
 #### 1.2 初始化Git仓库
+
 1. **填写仓库信息**
+
    ```
    Create a New Repository对话框：
-
+   
    Name: [输入仓库名称]
    - 建议与Unity工程名称相同
    - 使用英文和数字，避免特殊字符
    - 例如：MyUnityGame, PlatformerGame2D
-
+   
    Description: [输入项目描述]
    - 简短描述项目内容（可选）
    - 例如：A 2D platformer game built with Unity
-
+   
    Local path: [确认路径正确]
    - 应该指向您的Unity工程根目录
    - 包含Assets、ProjectSettings等文件夹的目录
-
+   
    Initialize this repository with a README: ✓
    - 建议勾选，会创建README.md文件
-
+   
    Git ignore: Unity
    - 选择Unity模板，自动生成适合Unity的.gitignore文件
    - 如果没有此选项，可以手动创建（参考前面章节）
-
+   
    License: [选择许可证]
    - 根据项目性质选择合适的许可证
    - 详细说明见下方许可证部分
@@ -781,34 +891,36 @@ Ctrl+T (Cmd+T)     : 切换分支
 2. **许可证选择指南**
 
 #### 2.1 什么是许可证？
+
 许可证（License）是一个法律文档，规定了其他人如何使用、修改和分发您的代码。选择合适的许可证对于开源项目非常重要。
 
 #### 2.2 常见许可证类型
 
 **🔓 宽松许可证（推荐用于游戏项目）**
 
-| 许可证 | 特点 | 适用场景 | 限制 |
-|--------|------|----------|------|
-| **MIT License** | 最宽松，使用最广泛 | 个人项目、学习项目、商业友好 | 几乎无限制，只需保留版权声明 |
-| **Apache 2.0** | 宽松，提供专利保护 | 大型项目、企业项目 | 需要保留版权和许可证声明 |
-| **BSD 3-Clause** | 简单宽松 | 学术项目、小型项目 | 不能使用作者名字做推广 |
+| 许可证           | 特点               | 适用场景                     | 限制                         |
+| ---------------- | ------------------ | ---------------------------- | ---------------------------- |
+| **MIT License**  | 最宽松，使用最广泛 | 个人项目、学习项目、商业友好 | 几乎无限制，只需保留版权声明 |
+| **Apache 2.0**   | 宽松，提供专利保护 | 大型项目、企业项目           | 需要保留版权和许可证声明     |
+| **BSD 3-Clause** | 简单宽松           | 学术项目、小型项目           | 不能使用作者名字做推广       |
 
 **🔒 Copyleft许可证（要求开源）**
 
-| 许可证 | 特点 | 适用场景 | 限制 |
-|--------|------|----------|------|
-| **GPL v3** | 强制开源 | 完全开源项目 | 衍生作品必须开源 |
-| **LGPL v3** | 部分强制开源 | 库和组件 | 修改部分必须开源 |
+| 许可证      | 特点         | 适用场景     | 限制             |
+| ----------- | ------------ | ------------ | ---------------- |
+| **GPL v3**  | 强制开源     | 完全开源项目 | 衍生作品必须开源 |
+| **LGPL v3** | 部分强制开源 | 库和组件     | 修改部分必须开源 |
 
 **🚫 限制性许可证**
 
-| 许可证 | 特点 | 适用场景 | 限制 |
-|--------|------|----------|------|
+| 许可证                  | 特点         | 适用场景           | 限制                     |
+| ----------------------- | ------------ | ------------------ | ------------------------ |
 | **All Rights Reserved** | 完全保留权利 | 商业项目、私有项目 | 他人不能使用、修改或分发 |
 
 #### 2.3 Unity游戏项目推荐
 
 **🎮 个人学习项目**
+
 ```
 推荐：MIT License
 理由：
@@ -819,6 +931,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 **🎮 开源游戏项目**
+
 ```
 推荐：MIT License 或 Apache 2.0
 理由：
@@ -829,6 +942,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 **🎮 商业游戏项目**
+
 ```
 推荐：All Rights Reserved 或不选择许可证
 理由：
@@ -839,6 +953,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 **🎮 教育项目**
+
 ```
 推荐：MIT License 或 Apache 2.0
 理由：
@@ -851,6 +966,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 #### 2.4 许可证选择建议
 
 **选择流程图**：
+
 ```
 开始
   ↓
@@ -866,6 +982,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 **常见误区**：
+
 ```
 ❌ 不选择许可证 = 完全保护
    实际：法律上可能存在争议
@@ -887,6 +1004,7 @@ Ctrl+T (Cmd+T)     : 切换分支
    - 等待仓库创建完成
 
 #### 1.3 验证仓库创建
+
 1. **检查GitHub Desktop界面**
    - 左上角应显示您的仓库名称
    - 当前分支应显示为"main"或"master"
@@ -900,11 +1018,13 @@ Ctrl+T (Cmd+T)     : 切换分支
 ### 2. 首次提交（Commit）
 
 #### 2.1 理解提交概念
+
 - **提交（Commit）**: 将文件变更保存到本地Git仓库的操作
 - **暂存（Stage）**: 选择哪些文件包含在本次提交中
 - **提交信息**: 描述本次提交内容的文本
 
 #### 2.2 检查要提交的文件
+
 1. **查看文件列表**
    - 在左侧面板查看所有变更文件
    - 确认包含了必要的Unity文件
@@ -916,16 +1036,19 @@ Ctrl+T (Cmd+T)     : 切换分支
    - 建议首次提交包含所有必要文件
 
 #### 2.3 编写提交信息
+
 1. **填写提交摘要**
+
    ```
    Summary（必填）：
    Initial Unity project commit
-
+   
    或者更具体的描述：
    Add Unity 2D platformer game project
    ```
 
 2. **填写详细描述（可选）**
+
    ```
    Description：
    - Added Unity project structure
@@ -935,6 +1058,7 @@ Ctrl+T (Cmd+T)     : 切换分支
    ```
 
 #### 2.4 执行提交
+
 1. **提交到本地仓库**
    - 确认提交信息无误
    - 点击 **"Commit to main"** 按钮
@@ -948,25 +1072,28 @@ Ctrl+T (Cmd+T)     : 切换分支
 ### 3. 发布到GitHub远程仓库
 
 #### 3.1 发布仓库
+
 1. **点击发布按钮**
+
    - 在GitHub Desktop顶部找到 **"Publish repository"** 按钮
    - 点击该按钮
 
 2. **配置远程仓库设置**
+
    ```
    Publish Repository对话框：
-
+   
    Name: [确认仓库名称]
    - 通常与本地仓库名称相同
    - 这将是GitHub上的仓库名称
-
+   
    Description: [确认描述]
    - 与本地仓库描述相同
-
+   
    Keep this code private: [选择可见性]
    - 勾选：创建私有仓库（只有您能看到）
    - 不勾选：创建公开仓库（所有人都能看到）
-
+   
    Organization: [选择组织]
    - 通常选择您的个人账户
    - 如果属于组织，可以选择组织账户
@@ -975,6 +1102,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 #### 3.2 仓库可见性选择指南
 
 **🔒 私有仓库（Private Repository）**
+
 ```
 适用场景：
 ✅ 商业游戏项目
@@ -996,6 +1124,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 **🌍 公开仓库（Public Repository）**
+
 ```
 适用场景：
 ✅ 开源游戏项目
@@ -1020,6 +1149,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 #### 3.3 许可证与可见性的关系
 
 **私有仓库 + 任何许可证**
+
 ```
 - 许可证主要影响未来开源时的规则
 - 即使设置了开源许可证，私有仓库仍然是私有的
@@ -1027,6 +1157,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 **公开仓库 + 开源许可证**
+
 ```
 - 许可证立即生效，规定他人如何使用您的代码
 - 必须选择合适的许可证
@@ -1034,6 +1165,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 **公开仓库 + 无许可证**
+
 ```
 ⚠️ 不推荐：法律上他人无法合法使用您的代码
 ⚠️ 可能导致：潜在的法律纠纷
@@ -1047,6 +1179,7 @@ Ctrl+T (Cmd+T)     : 切换分支
    - 等待上传完成（可能需要几分钟，取决于项目大小）
 
 #### 3.2 验证发布成功
+
 1. **检查GitHub Desktop状态**
    - "Publish repository"按钮应该变为"Fetch origin"
    - 顶部应显示远程仓库信息
@@ -1062,6 +1195,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ### 1. 提交频率和时机
 
 #### 1.1 何时进行提交
+
 ```
 推荐提交时机：
 ✅ 完成一个功能特性
@@ -1079,6 +1213,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ```
 
 #### 1.2 提交频率建议
+
 - **小型项目**：每天1-3次提交
 - **中型项目**：每完成一个小功能就提交
 - **团队协作**：至少每天提交一次
@@ -1087,6 +1222,7 @@ Ctrl+T (Cmd+T)     : 切换分支
 ### 2. 提交信息规范
 
 #### 2.1 提交信息格式
+
 ```
 标准格式：
 类型(范围): 简短描述
@@ -1101,6 +1237,7 @@ style(ui): 调整主菜单界面布局
 ```
 
 #### 2.2 提交类型说明
+
 ```
 feat:     新功能
 fix:      bug修复
@@ -1113,6 +1250,7 @@ perf:     性能优化
 ```
 
 #### 2.3 Unity特定提交示例
+
 ```
 Unity项目常见提交信息：
 feat(scene): 添加新的游戏关卡
@@ -1127,6 +1265,7 @@ chore: 更新Unity版本到2022.3 LTS
 ### 3. 分支管理策略
 
 #### 3.1 基础分支结构
+
 ```
 分支层次结构：
 main (或 master)
@@ -1138,6 +1277,7 @@ main (或 master)
 ```
 
 #### 3.2 分支类型说明
+
 1. **main/master分支**
    - 稳定的生产版本
    - 只包含经过测试的代码
@@ -1160,7 +1300,9 @@ main (或 master)
    - 修复完成后同时合并到main和develop
 
 #### 3.3 GitHub Desktop分支操作
+
 1. **创建新分支**
+
    ```
    步骤：
    1. 点击顶部的 "Current Branch"
@@ -1171,6 +1313,7 @@ main (或 master)
    ```
 
 2. **切换分支**
+
    ```
    步骤：
    1. 点击顶部的 "Current Branch"
@@ -1179,6 +1322,7 @@ main (或 master)
    ```
 
 3. **合并分支**
+
    ```
    步骤：
    1. 切换到目标分支（如develop）
@@ -1190,6 +1334,7 @@ main (或 master)
 ### 4. 文件管理最佳实践
 
 #### 4.1 Unity资源组织
+
 ```
 推荐的Assets文件夹结构：
 Assets/
@@ -1205,6 +1350,7 @@ Assets/
 ```
 
 #### 4.2 命名规范
+
 ```
 文件命名建议：
 ✅ 使用英文命名
@@ -1224,13 +1370,17 @@ BackgroundMusic.mp3
 ### 1. 文件大小相关问题
 
 #### 1.1 文件过大无法上传
+
 **问题症状**：
+
 - 上传时提示文件过大
 - GitHub限制单个文件最大100MB
 - 推送失败或速度极慢
 
 **解决方案**：
+
 1. **检查大文件**
+
    ```
    常见的Unity大文件：
    - .fbx 模型文件
@@ -1241,35 +1391,39 @@ BackgroundMusic.mp3
    ```
 
 2. **使用Git LFS（大文件存储）**
+
    ```
    在Unity工程根目录创建 .gitattributes 文件：
-
+   
    # 3D模型文件
    *.fbx filter=lfs diff=lfs merge=lfs -text
    *.obj filter=lfs diff=lfs merge=lfs -text
-
+   
    # 贴图文件
    *.png filter=lfs diff=lfs merge=lfs -text
    *.jpg filter=lfs diff=lfs merge=lfs -text
    *.tga filter=lfs diff=lfs merge=lfs -text
-
+   
    # 音频文件
    *.mp3 filter=lfs diff=lfs merge=lfs -text
    *.wav filter=lfs diff=lfs merge=lfs -text
    *.ogg filter=lfs diff=lfs merge=lfs -text
-
+   
    # 视频文件
    *.mp4 filter=lfs diff=lfs merge=lfs -text
    *.mov filter=lfs diff=lfs merge=lfs -text
    ```
 
 3. **压缩和优化资源**
+
    - 在Unity中压缩贴图
    - 降低音频质量
    - 使用更高效的文件格式
 
 #### 1.2 仓库体积过大
+
 **解决方案**：
+
 - 定期清理不需要的资源
 - 使用.gitignore忽略临时文件
 - 考虑将大型资源存储在外部
@@ -1277,13 +1431,17 @@ BackgroundMusic.mp3
 ### 2. 同步和冲突问题
 
 #### 2.1 合并冲突解决
+
 **问题症状**：
+
 - 推送时提示有冲突
 - GitHub Desktop显示冲突文件
 - 无法自动合并
 
 **解决步骤**：
+
 1. **获取最新更改**
+
    ```
    步骤：
    1. 点击 "Fetch origin" 获取远程更新
@@ -1292,6 +1450,7 @@ BackgroundMusic.mp3
    ```
 
 2. **手动解决冲突**
+
    ```
    冲突标记说明：
    <<<<<<< HEAD
@@ -1299,7 +1458,7 @@ BackgroundMusic.mp3
    =======
    远程更改
    >>>>>>> branch-name
-
+   
    解决方法：
    1. 打开冲突文件
    2. 删除冲突标记
@@ -1308,6 +1467,7 @@ BackgroundMusic.mp3
    ```
 
 3. **完成合并**
+
    ```
    步骤：
    1. 解决所有冲突文件
@@ -1317,12 +1477,15 @@ BackgroundMusic.mp3
    ```
 
 #### 2.2 Unity特定冲突处理
+
 **场景文件冲突**：
+
 - Unity场景文件冲突较难手动解决
 - 建议使用Unity的Smart Merge工具
 - 或者重新创建冲突的场景部分
 
 **项目设置冲突**：
+
 - ProjectSettings文件夹中的冲突
 - 通常选择最新的设置
 - 必要时重新配置项目设置
@@ -1330,11 +1493,14 @@ BackgroundMusic.mp3
 ### 3. 权限和访问问题
 
 #### 3.1 推送权限被拒绝
+
 **问题症状**：
+
 - 推送时提示"Permission denied"
 - 无法访问远程仓库
 
 **解决方案**：
+
 1. **检查登录状态**
    - 确认GitHub Desktop已正确登录
    - 重新登录GitHub账户
@@ -1348,7 +1514,9 @@ BackgroundMusic.mp3
    - 检查GitHub个人访问令牌
 
 #### 3.2 仓库不存在或无法访问
+
 **解决方案**：
+
 - 检查仓库URL是否正确
 - 确认仓库没有被删除
 - 检查网络连接
@@ -1356,11 +1524,14 @@ BackgroundMusic.mp3
 ### 4. Unity特定问题
 
 #### 4.1 .meta文件问题
+
 **问题症状**：
+
 - 资源引用丢失
 - Unity报告missing references
 
 **解决方案**：
+
 1. **确保.meta文件被跟踪**
    - 检查.gitignore没有忽略.meta文件
    - 确保Version Control Mode设置正确
@@ -1370,12 +1541,16 @@ BackgroundMusic.mp3
    - 重新导入受影响的资源
 
 #### 4.2 Library文件夹问题
+
 **问题症状**：
+
 - Library文件夹被意外提交
 - 仓库体积异常庞大
 
 **解决方案**：
+
 1. **从版本控制中移除**
+
    ```
    在Git命令行中执行：
    git rm -r --cached Library/
@@ -1383,15 +1558,19 @@ BackgroundMusic.mp3
    ```
 
 2. **更新.gitignore**
+
    - 确保.gitignore包含Library/
    - 提交.gitignore更改
 
 #### 4.3 Unity版本兼容性
+
 **问题症状**：
+
 - 项目无法在不同Unity版本间正常工作
 - 出现版本相关错误
 
 **解决方案**：
+
 - 在README中明确Unity版本要求
 - 使用Unity LTS版本保证稳定性
 - 团队成员使用相同的Unity版本
@@ -1401,6 +1580,7 @@ BackgroundMusic.mp3
 ### 1. 日常工作流程
 
 #### 1.1 标准工作流程
+
 ```
 每日开发流程：
 1. 🌅 开始工作
@@ -1416,7 +1596,9 @@ BackgroundMusic.mp3
 ```
 
 #### 1.2 详细操作步骤
+
 1. **开始工作前**
+
    ```
    步骤：
    1. 打开GitHub Desktop
@@ -1427,6 +1609,7 @@ BackgroundMusic.mp3
    ```
 
 2. **开发过程中**
+
    ```
    建议频率：
    - 每完成一个小功能：提交一次
@@ -1436,6 +1619,7 @@ BackgroundMusic.mp3
    ```
 
 3. **结束工作时**
+
    ```
    步骤：
    1. 保存Unity项目
@@ -1448,7 +1632,9 @@ BackgroundMusic.mp3
 ### 2. 团队协作进阶
 
 #### 2.1 Pull Request工作流
+
 1. **创建Pull Request**
+
    ```
    步骤：
    1. 在feature分支完成开发
@@ -1459,6 +1645,7 @@ BackgroundMusic.mp3
    ```
 
 2. **代码审查流程**
+
    ```
    审查要点：
    ✅ 代码质量和规范
@@ -1469,7 +1656,9 @@ BackgroundMusic.mp3
    ```
 
 #### 2.2 Issue管理
+
 1. **创建Issue**
+
    ```
    Issue类型：
    🐛 Bug Report - 报告bug
@@ -1479,19 +1668,20 @@ BackgroundMusic.mp3
    ```
 
 2. **Issue模板示例**
+
    ```markdown
    ## Bug描述
    简要描述遇到的问题
-
+   
    ## 复现步骤
    1. 打开游戏
    2. 点击开始按钮
    3. 进入第一关
    4. 玩家无法移动
-
+   
    ## 预期行为
    玩家应该能够正常移动
-
+   
    ## 环境信息
    - Unity版本：2022.3.0f1
    - 平台：Windows 10
@@ -1499,6 +1689,7 @@ BackgroundMusic.mp3
    ```
 
 #### 2.3 项目管理
+
 1. **使用GitHub Projects**
    - 创建项目看板
    - 设置不同状态列（To Do, In Progress, Done）
@@ -1512,13 +1703,15 @@ BackgroundMusic.mp3
 ### 3. 高级Git操作
 
 #### 3.1 标签和发布
+
 1. **创建标签**
+
    ```
    用途：
    - 标记重要版本
    - 便于版本回滚
    - 发布管理
-
+   
    命名规范：
    v1.0.0 - 主要版本
    v1.1.0 - 次要版本
@@ -1526,6 +1719,7 @@ BackgroundMusic.mp3
    ```
 
 2. **创建Release**
+
    ```
    步骤：
    1. 在GitHub网站进入仓库
@@ -1538,7 +1732,9 @@ BackgroundMusic.mp3
    ```
 
 #### 3.2 备份策略
+
 1. **多重备份**
+
    ```
    备份层次：
    1. 本地Git仓库
@@ -1548,6 +1744,7 @@ BackgroundMusic.mp3
    ```
 
 2. **自动化备份**
+
    - 设置GitHub Actions自动备份
    - 定期导出项目文件
    - 云存储同步
@@ -1555,7 +1752,9 @@ BackgroundMusic.mp3
 ### 4. 性能优化
 
 #### 4.1 仓库优化
+
 1. **定期清理**
+
    ```
    清理内容：
    - 删除不需要的分支
@@ -1564,11 +1763,13 @@ BackgroundMusic.mp3
    ```
 
 2. **LFS优化**
+
    - 合理使用Git LFS
    - 定期清理LFS缓存
    - 监控LFS存储使用量
 
 #### 4.2 工作流优化
+
 1. **提交优化**
    - 避免过大的提交
    - 合理拆分功能提交
@@ -1582,6 +1783,7 @@ BackgroundMusic.mp3
 ## 🎯 总结与检查清单
 
 ### 完成检查清单
+
 完成本教程后，您应该能够：
 
 - [ ] ✅ 成功安装并配置GitHub Desktop
@@ -1634,6 +1836,7 @@ BackgroundMusic.mp3
 **🎉 恭喜！您已经掌握了使用GitHub Desktop管理Unity项目的完整流程。**
 
 通过本教程，您的Unity项目现在拥有了：
+
 - ✨ 完整的版本控制系统
 - 🔄 可靠的备份和同步机制
 - 👥 支持团队协作的工作流程
